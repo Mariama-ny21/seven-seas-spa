@@ -82,7 +82,34 @@ h1, h2, h3{
 
 .wellness-tips p {
     text-align: left; /* Align the paragraph to the left */
+}
 
+
+.testimonials {
+    background-color: #f8f9fa; /* Light background for contrast */
+    padding: 40px 20px;
+    border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+.testimonials h2 {
+    text-align: center;
+    font-family: "Handlee", cursive;
+    color: #3B2F2F;
+    margin-bottom: 30px;
+}
+
+.testimonial p {
+    font-size: 1.1rem;
+    color: #6c757d;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.testimonial h5 {
+    font-size: 1rem;
+    color: #3B2F2F;
+    margin-top: 10px;
+}
 
 /* Media Queries for Responsiveness */
 /* Adjust for smaller screens */
@@ -107,5 +134,5 @@ h1, h2, h3{
         height: auto; /* Allow cards to adjust naturally */
         display: flex; /* Use Flexbox for consistent alignment */
         flex-direction: column; /* Stack content vertically */
-
-    
+    }
+}
