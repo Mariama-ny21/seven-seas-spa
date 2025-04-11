@@ -38,12 +38,13 @@
 
 
 /* Style the hero section */
+
 .hero-section {
-    background: #f8f9fa url('../images/hero.png') no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero.png') no-repeat center center;
     background-size: cover;
-    color: #3B2F2F;
-    height: 100vh; /* Full viewport height */
+    color: #FFEBD4;
     padding: 100px 0;
+    height: 100vh; /* Full viewport height */
 }
 
 .hero-section h1 {
