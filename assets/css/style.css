@@ -36,7 +36,6 @@
     /* Slightly darker color on hover */
 }
 
-
 /* Style the hero section */
 
 .hero-section {
@@ -60,6 +59,32 @@
         color: #3b2f2f;
 } 
 
+body {
+    display: flex; /* Use Flexbox for the row */
+    flex-direction: column; /* Allow wrapping for smaller screens */
+    min-height: 100vh; /* Ensure the body takes full height */
+    gap: 20px; /* Add spacing between cards */
+} 
+
+h1, h2{
+    color: 
+#3B2F2F;
+}
+h1, h2, h3{
+    font-family: 'Handlee', cursive;
+}
+
+/*Style the Services section*/
+.service-card img {
+    object-fit: cover;
+    height: 200px; /* Set the height to 200px */   
+}
+
+.wellness-tips p {
+    text-align: left; /* Align the paragraph to the left */
+
+
+/* Media Queries for Responsiveness */
 /* Adjust for smaller screens */
 @media (max-width: 768px) {
     .hero-section {
@@ -75,3 +100,12 @@
         background-position: center top; /* Focus on the top of the image */
     }
 }
+
+/* Ensure consistent card sizes on large screens */
+@media (min-width: 992px) {
+    .service-card {
+        height: auto; /* Allow cards to adjust naturally */
+        display: flex; /* Use Flexbox for consistent alignment */
+        flex-direction: column; /* Stack content vertically */
+
+    
