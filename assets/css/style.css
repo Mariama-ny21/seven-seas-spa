@@ -111,6 +111,17 @@ h1, h2, h3{
     margin-top: 10px;
 }
 
+/* Footer Styles */
+footer .social-icons a {
+    text-decoration: none; /* Remove underline from links */
+    outline: none; /* Remove blue focus outline */
+}
+
+footer .social-icons a:focus {
+    outline: none; /* Ensure no outline appears on focus */
+    box-shadow: none; /* Remove any additional focus styling */
+}
+
 /* Media Queries for Responsiveness */
 /* Adjust for smaller screens */
 @media (max-width: 768px) {
