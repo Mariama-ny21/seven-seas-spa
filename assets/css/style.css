@@ -3,16 +3,26 @@
 
 /* Style the navbar */
 .navbar {
-    background-color: white;
+    background-color: white !important;
     /* Set the background to white */
     color: #3B2F2F;
     /* Set the text color to #3B2F2F */
+    position:sticky;
+    /* Make the navbar sticky */
+    top: 0;
+    width: 100%;
+    /* Full width */
+    z-index: 1000;
+    /* Ensure it stays on top of other elements */
 }
 
 .navbar .navbar-brand {
     color: #3B2F2F;
     /* Set the brand text color */
     font-weight: bold;
+}
+body{
+    padding-top: 56px /* Adjust for the navbar height */
 }
 
 .navbar .navbar-nav {
@@ -82,11 +92,13 @@ h1, h2, h3{
 
 .wellness-tips p {
     text-align: left; /* Align the paragraph to the left */
+    background-color: white;
 }
 
 
+
 .testimonials {
-    background-color: #f8f9fa; /* Light background for contrast */
+    background-color: white; /* Light background for contrast */
     padding: 40px 20px;
     border-radius: 8px; /* Optional: Add rounded corners */
 }
