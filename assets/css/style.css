@@ -77,8 +77,7 @@ body{
 
 }
 
-
-.btn {
+.hero-section btn {
     color: #3b2f2f;
 }
 
@@ -102,6 +101,10 @@ h1, h2, h3{
     font-family: 'Handlee', cursive;
 }
 
+/* Style the About section */
+#about{
+    color: #3B2F2F;
+}
 /*Style the Services section*/
 .service-card img {
     object-fit: cover;
@@ -113,6 +116,16 @@ h1, h2, h3{
     background-color: white;
 }
 
+/* Style the Detailed Services section */
+.services img {
+    max-width: 100%; /* Ensure the image scales properly */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+.table {
+    margin-top: 20px; /* Add spacing above the timetable */
+}
 
 .testimonials {
     background-color: white; /* Light background for contrast */
@@ -120,6 +133,7 @@ h1, h2, h3{
     border-radius: 8px; /* Optional: Add rounded corners */
 }
 
+/* Style the Testimonials section */
 .testimonials h2 {
     text-align: center;
     font-family: "Handlee", cursive;
@@ -140,6 +154,10 @@ h1, h2, h3{
     margin-top: 10px;
 }
 
+/* Style the contact section */
+#contact{
+    color: #3B2F2F;
+}
 /* Footer Styles */
 footer .social-icons a {
     text-decoration: none; /* Remove underline from links */
@@ -152,13 +170,6 @@ footer .social-icons a:focus {
 }
 
 /* Media Queries for Responsiveness */
-/* Adjust for smaller screens */
-@media (max-width: 768px) {
-    .hero-section {
-        padding: 50px 50px; /* Adjust padding for mobile */
-        background-position: cover; /* Adjust background position */
-    }
-}
 /* Adjust for small screens (mobile) */
 @media (max-width: 576px) {
     .hero-section {
@@ -167,7 +178,13 @@ footer .social-icons a:focus {
         background-position: center top; /* Focus on the top of the image */
     }
 }
-
+/* Adjust for medium creens */
+@media (max-width: 768px) s{
+    .hero-section {
+        padding: 50px 50px; /* Adjust padding for mobile */
+        background-position: cover; /* Adjust background position */
+    }
+}
 /* Ensure consistent card sizes on large screens */
 @media (min-width: 992px) {
     .service-card {
