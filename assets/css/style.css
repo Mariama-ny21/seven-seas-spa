@@ -22,7 +22,9 @@
     font-weight: bold;
 }
 body{
-    padding-top: 56px /* Adjust for the navbar height */
+    padding-top: 56px; /* Adjust for the navbar height */
+    margin: 0; /* Remove default margin */
+
 }
 
 .navbar .navbar-nav {
@@ -85,6 +87,7 @@ body{
         background-color: #ffebd4;
         color: #3b2f2f;
 } 
+
 
 body {
     display: flex; /* Use Flexbox for the row */
